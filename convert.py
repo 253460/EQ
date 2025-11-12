@@ -45,11 +45,7 @@ def sanitize_gain(db: float, lim: float = 24.0) -> float:
 
 def shelf_S_to_Qs(S: float, gain_db: float) -> float:
     """
-<<<<<<< HEAD
     棚の S → 棚Q(Qs) に変換（
-=======
-    棚の S → 棚Q(Qs) に変換
->>>>>>> 17f2df2 (Update: latest code)
     """
     A = A_from_gain_db(gain_db)
     inv_Q2 = (A + 1.0 / A) * (1.0 / S - 1.0) + 2.0
@@ -58,11 +54,7 @@ def shelf_S_to_Qs(S: float, gain_db: float) -> float:
 
 def shelf_Qs_to_S(Qs: float, gain_db: float) -> float:
     """
-<<<<<<< HEAD
     棚Q(Qs) → S に変換（
-=======
-    棚Q(Qs) → S に変換
->>>>>>> 17f2df2 (Update: latest code)
     """
     A = A_from_gain_db(gain_db)
 
