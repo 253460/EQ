@@ -16,7 +16,7 @@ from .convert import (
 
 
 class BiquadDesigner:
-    """係数設計器：静的メソッド群（b, a を a0=1 で返す）"""
+    """係数設計器"""
 
     # ---------------------------
     # Peaking
