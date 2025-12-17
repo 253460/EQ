@@ -1,4 +1,4 @@
-# eqcore/chain.py
+# eqcore/multiband.py
 # 役割：複数のEQを順に適用。順序編集・合成特性の計算も担当。
 
 from __future__ import annotations
